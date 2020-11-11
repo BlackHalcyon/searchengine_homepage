@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+
+    body {
+        background-color: #1b1c1d;
+    }
+
+    *{
+        font-family: 'Franklin Gothic Medium';
+        color: white;
+    }
+   a:link {
+      text-decoration: none;
+      color:cornflowerblue;
+   }
+   a:visited {
+      text-decoration: none;
+      color:cornflowerblue;
+   }
+   a:hover {
+      text-decoration: none;
+      color:cornflowerblue;
+   }
+   a:active {
+      text-decoration: none;
+      color:cornflowerblue;
+   }
+
+   #logo {
+        display: flex;
+        justify-content: center;
+        margin: 5em 0px 0px 0px;
+   } 
+   #searchbar {
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+
+        /*Put stuff here to make the searchbar look nice */
+   }
+
+   #tl_box {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       /*justify-content: center;
+       
+       align-items: center;*/
+   }
+   #Tagline {
+       font-size: 32px;
+       font-weight: bold;
+       margin-bottom: -1.2em;
+
+   }
+   #dl_offer {
+       font-size: 16px;
+
+   }
+   #dl_button {
+       background-color: cornflowerblue;
+       border: none;
+       border-radius: 15px;
+       color: white;
+       padding: 0px 20px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 1px auto 3em auto;
+       cursor: pointer;     
+   }
+   #dl_sub {
+       font-weight: bold;
+       margin-bottom: -2em;
+   }
+
+
+   #box-container {
+       width: 100%;
+       background-color: ;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       padding: 3%;
+       margin-top: 5%;
+   }
+
+   #box1 {
+       background-color: #333333;
+       margin: 1% 1% 1% 1%;    
+       color: white;
+       text-align: center;
+       border: none;
+       border-radius: 15px;
+       padding: 2.5em;
+       max-width: 18em;
+       min-width: 12em;
+
+   }
+   #box2 {
+       background-color: #333333;
+       margin: 1% 1% 1% 1%; 
+       color: white;
+       text-align: center;
+       border: none;
+       border-radius: 15px;
+       padding: 2.5em;
+       max-width: 18em;
+       min-width: 12em;
+   }
+   #box3 {
+       background-color: #333333;
+       margin: 1% 1% 1% 1%;  
+       color: white;
+       text-align: center;
+       border: none;
+       border-radius: 15px;
+       padding: 2.5em;
+       max-width: 18em;
+       min-width: 12em;
+   }
+   #greenbg {
+       position: absolute;
+       bottom: -27em;
+       z-index: -99;
+       border-radius: 50%;
+       width: 90em;
+       height: 50em;
+       background: #14bd93;
+   }
+
+
+</style>
+
+
+
+
+<head>
+</head>
+<body>
+ 
+<div id="logo">
+<img src= "ddg_logo.png" width=220 alt="Logo">
+</div>
+
+<div id="searchbar">
+<form action="void">
+    <input type="text" placeholder="Search the web without being tracked" required>
+    <button type="submit">Search</button>
+</form>
+</div>
+
+<div id="tl_box">
+<div id="Tagline">
+<p>Tired of being tracked online? We can help.</p>
+</div>
+<div id="dl_offer"> <p>Add DuckDuckGo Privacy Essentials to your browser for free with one download:</p>
+</div>
+<div id="dl_button"> <p> Add DuckDuckGo to Brave</p> </div>
+<div id=dl_sub><p>Privacy Protection for Any Device</p></div>
+</div>
+
+<div id="box-container">
+    
+    <div id="box1">
+        <img src="https://duckduckgo.com/assets/add-to-browser/cppm/laptop.svg" alt="">
+        <p style="font-size: 24px; font-weight: bold;">Privacy Browser Extension</p>
+        <p>Browse as usual, and we'll take care of the rest. Get bundled private search, tracker blocking, and site encription, all in one download, for <a href="https://duckduckgo.com/app">major browsers</a>.</p>
+    </div>
+    <div id="box2">
+        <img src="https://duckduckgo.com/assets/home/landing/icons/search.svg" alt="">
+        <p style="font-size: 24px; font-weight: bold;">Priate Search Engine</p>
+        <p>Search privately with our app or extension, add private web search to your favorite browser, or search directly at <a href=duckduckgo.com>duckduckgo.com</a>.</p>
+    </div>
+    <div id="box3">
+        <img src="https://duckduckgo.com/assets/add-to-browser/cppm/mobile.svg" alt="">
+        <p style="font-size: 24px; font-weight: bold;">Privacy Browser App</p>
+        <p>Our private browser for movile comes equipped with our search engine, tracker blocker, encryption enforcer, and more. Available on <a href="https://duckduckgo.com/app">iOS & Android</a>.</p>
+
+    </div>
+    <div id="greenbg"></div>
+</div>
+
+</body>
+  
+</html>
